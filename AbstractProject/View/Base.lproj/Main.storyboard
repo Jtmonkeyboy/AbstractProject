@@ -25,8 +25,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="blockCode" translatesAutoresizingMaskIntoConstraints="NO" id="Vkg-W6-91j">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blockCode" translatesAutoresizingMaskIntoConstraints="NO" id="Vkg-W6-91j">
                                 <rect key="frame" x="67" y="119" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Block code is more abstract than Swift code because it already is precoded. Block code is less abstract than legos." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYf-Hz-5rh">
                                 <rect key="frame" x="43" y="475" width="288" height="21"/>
@@ -37,7 +38,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.82586783592509505" green="0.36059015805067607" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="aYf-Hz-5rh" firstAttribute="width" secondItem="Vkg-W6-91j" secondAttribute="width" id="gc8-hP-9xm"/>
+                            <constraint firstItem="aYf-Hz-5rh" firstAttribute="width" secondItem="7Dx-lS-ff3" secondAttribute="width" constant="-87" id="wdU-PP-swY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WoL-40-pXS"/>
                     </view>
@@ -54,7 +55,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="byteCode" translatesAutoresizingMaskIntoConstraints="NO" id="ZW7-0l-Klc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="byteCode" translatesAutoresizingMaskIntoConstraints="NO" id="ZW7-0l-Klc">
                                 <rect key="frame" x="67" y="141" width="240" height="128"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRS-At-hkw">
@@ -67,7 +68,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40358001819079758" blue="0.27874063149904638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="VRS-At-hkw" firstAttribute="width" secondItem="ZW7-0l-Klc" secondAttribute="width" id="dKX-sz-poR"/>
+                            <constraint firstItem="ZW7-0l-Klc" firstAttribute="centerX" secondItem="KTb-FQ-q91" secondAttribute="centerX" id="stY-0H-dGh"/>
+                            <constraint firstItem="VRS-At-hkw" firstAttribute="width" secondItem="ks6-a1-a83" secondAttribute="width" id="zD5-Bo-3QH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KTb-FQ-q91"/>
                     </view>
@@ -84,8 +86,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="binaryCode" translatesAutoresizingMaskIntoConstraints="NO" id="g9M-ef-kqa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="binaryCode" translatesAutoresizingMaskIntoConstraints="NO" id="g9M-ef-kqa">
                                 <rect key="frame" x="67" y="138" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N18-4s-Kjq">
                                 <rect key="frame" x="16" y="477" width="309" height="21"/>
@@ -97,7 +100,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76114997238922188" blue="0.35114082975781924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="N18-4s-Kjq" firstAttribute="width" secondItem="g9M-ef-kqa" secondAttribute="width" id="V3L-Te-4Hc"/>
+                            <constraint firstItem="N18-4s-Kjq" firstAttribute="width" secondItem="c5Z-02-90s" secondAttribute="width" id="yBs-e1-cgG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QMt-UK-0rP"/>
                     </view>
@@ -114,8 +117,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logicalGate" translatesAutoresizingMaskIntoConstraints="NO" id="Fv4-uN-Oo3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logicalGate" translatesAutoresizingMaskIntoConstraints="NO" id="Fv4-uN-Oo3">
                                 <rect key="frame" x="67" y="134" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvg-lj-E8a">
                                 <rect key="frame" x="33" y="475" width="303" height="21"/>
@@ -127,7 +131,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.64801337815233806" green="1" blue="0.45336293969499797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tvg-lj-E8a" firstAttribute="width" secondItem="Fv4-uN-Oo3" secondAttribute="width" id="ZQI-Xg-Mkn"/>
+                            <constraint firstItem="tvg-lj-E8a" firstAttribute="width" secondItem="PCw-eH-PQ6" secondAttribute="width" id="OyJ-Lf-aj3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aVd-Dd-lUq"/>
                     </view>
@@ -144,8 +148,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="swiftCode" translatesAutoresizingMaskIntoConstraints="NO" id="hO4-sv-KC7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swiftCode" translatesAutoresizingMaskIntoConstraints="NO" id="hO4-sv-KC7">
                                 <rect key="frame" x="67" y="121" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Swift code is more abstract than Logical gate because it is a lot easier to use. Swift code is less abstract than Block code." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkq-T7-yXB">
                                 <rect key="frame" x="33" y="478" width="308" height="21"/>
@@ -156,7 +161,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.15337596266333864" green="0.69337165185871297" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Pkq-T7-yXB" firstAttribute="width" secondItem="hO4-sv-KC7" secondAttribute="width" id="56t-q2-p6Z"/>
+                            <constraint firstItem="Pkq-T7-yXB" firstAttribute="width" secondItem="gez-GB-wP5" secondAttribute="width" id="cai-q8-oK1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wdy-zG-lV2"/>
                     </view>
